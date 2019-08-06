@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tn = parseInt(Number(prompt("diem kt trung binh tren lop")));
+    let mid = parseInt(Number(prompt("diem kt giua ki")));
+    let final =  parseInt(Number(prompt("diem kt cuoi ki")));
+    let rank = ( tn + 2*mid + 3*final)/6;
+    if (rank>=8) {
+        document.write("hoc luc gioi");
+    }else if (rank>=6){
+        document.write("hoc luc kha");
+    }else
+        document.write("hoc luc trung binh");
+</script>
+</body>
+</html>

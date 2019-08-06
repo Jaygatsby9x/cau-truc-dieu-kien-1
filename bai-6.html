@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let revenue = Number(prompt("nhap vao doanh thu ban hang"));
+    let quota1 = 10000000;
+    let quota2 = 20000000;
+    if (revenue<quota1){
+        let n1 = revenue * 0.05;
+        document.write("tien hoa hong" +n1);
+    }else if (revenue>quota1 && revenue<quota2){
+        let n2 = revenue * 0.1;
+        document.write("tien hoa hong" +n2);
+    }else {
+        let n3 = revenue * 0.2;
+        document.write("tien hoa hong" +n3);
+    }
+
+</script>
+</body>
+</html>
